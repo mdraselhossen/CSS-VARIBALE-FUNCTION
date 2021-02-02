@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css varible tutorial</title>
+	<style type="text/css">
+		:root{
+			--blue:white;
+			--white:green;
+		}
+		body{
+			background-color: var(--blue);
+		}
+		h1{
+			color: var(--white);
+		}
+		h2{
+			padding: 5px;
+			border-bottom: 2px solid var(--blue);
+		}
+		.continer{
+			background-color: var(--white);
+			color: var(--blue);
+			padding: 15px;
+			border-radius: 10px;
+		}
+		button{
+			padding: 5px;
+			background-color: var(--white);
+			border:2px solid var(--blue);
+		}
+	</style>
+</head>
+<body>
+	<h1>How to work css varibale property</h1>
+	<div class="continer">
+		<h2>css varibale property</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+        <p>
+    <button>YES</button>
+	<button>NO</button>
+	</div>
+
+
+</body>
+</html>
